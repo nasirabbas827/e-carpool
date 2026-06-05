@@ -40,7 +40,7 @@ if (isset($_GET['PromotionID']) && isset($_GET['status'])) {
              $mail->Host = 'smtp.gmail.com'; // Replace with your SMTP host
              $mail->SMTPAuth = true;
              $mail->Username = 'mehrooz.jamal10@gmail.com'; // Replace with your SMTP username
-             $mail->Password = 'ojqjfeigwbefeozo'; // Replace with your SMTP password
+             $mail->Password = "YOUR_OWN_API_KEY"; // Replace with your SMTP password
              $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
              $mail->Port = 587; // Replace with your SMTP port (usually 587)
  
